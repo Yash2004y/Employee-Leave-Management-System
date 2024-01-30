@@ -1,0 +1,60 @@
+.form-control:focus
+{
+    color:#989CA2;
+}
+select
+{
+    color:#989CA2 !important;
+}
+.form-control::placeholder
+{
+    color:#989CA2;
+}
+.form-control:disabled{
+    background: none;
+}
+.form-control{
+    color:#989CA2;
+}
+.card
+{
+    /*border-radius:20px;*/
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.nav-heading-mini
+{
+    font-family: arial rounded mt;
+    font-size:2rem;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 3px;
+}
+.nav-heading
+{
+    display: none;
+    font-family: arial rounded mt;
+    font-size:2rem;
+    width:60%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+@media only screen and (max-width:1450px){
+.nav-heading
+{
+    font-size: 1.5rem;
+}    
+}
+@media only screen and (min-width:1200px){
+.nav-heading-mini
+{
+    display: none;
+}
+.nav-heading
+{
+    display:block;
+}    
+}
